@@ -10,9 +10,13 @@ and there is a part which can detect hand gestures using mp_hand_gesture model (
 the whole thing is into threads which run concurently .
 
 **note** : if you want the code to run properly you should modify following parts :
+
 i- .png files in /faces directory (palce .png files of faces you want the code to recognize)
+
 ii - self.url value in tcp_call class (multi_thread.py line 105) , palce the adress of your esp board (or whatever) in the network .
+
 iii - names in the self.confirmed_names list (multi_thread.py line 173) the code will response to those faces whos names are in this list only
+
 
 
 2 - ESP board programmed as server , waiting for requests from python script .
