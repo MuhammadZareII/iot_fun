@@ -170,7 +170,7 @@ class VisualRecognition:
         self.process_current_frame = True
         self.call_sign = 'none'
         self.last_call = 'none'
-        self.confirmed_names = ['muhammad','ata','ali'] 
+        self.confirmed_names = ['person1','person2','person3'] 
         
     def encode_faces(self):
         for image in os.listdir('faces'):
