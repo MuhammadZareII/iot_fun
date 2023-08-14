@@ -1,2 +1,2 @@
 # iot_fun
-fun iot project details discussed later
+fun iot project details will be discussed later
